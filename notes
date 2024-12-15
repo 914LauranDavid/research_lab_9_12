@@ -1,5 +1,6 @@
 de facut inainte de a redacta paperul:
-- build all datasets. clean them. do the experiment on them.
+- clean the datasets & make them echilibrate
+- do the experiment on the datasets
 
 de facut in paper:
 - tot din documentele de pana acum
@@ -11,6 +12,7 @@ lean right: justthenews (2016), zerohedge
 
 am facut:
 - construit dataseturile
-     2012: replaced justthenews with zerohedge, because justthenews' archive doesnt go that far. then also used it for 2020, as it provides more articles.
+      used zerohedge for 2020, beacause justthenews didnt provide enough data. for 2012, used foxbusiness, because the other 2 dont go that far..
+      merging: linux commands
      
 (urmeaza: curatat dataseturile)
