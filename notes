@@ -1,4 +1,16 @@
 de facut inainte de a redacta paperul:
 - build all datasets. clean them. do the experiment on them.
 
+de facut in paper:
+- tot din documentele de pana acum
+- grafice
+
 lean left: npr
+lean right: justthenews (2016), zerohedge
+
+
+am facut:
+- construit dataseturile
+     2012: replaced justthenews with zerohedge, because justthenews' archive doesnt go that far. then also used it for 2020, as it provides more articles.
+     
+(urmeaza: curatat dataseturile)
