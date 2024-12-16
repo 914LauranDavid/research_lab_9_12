@@ -14,14 +14,14 @@ am facut:
 - construit dataseturile
       used zerohedge for 2020, beacause justthenews didnt provide enough data. for 2012, used foxbusiness, because the other 2 dont go that far..
       merging: linux commands
-      curatare1: sters citate rele*
-      note: much more data for lean left. will balance by having more right-leaning data in the extended newb dataset.
-      curatare2: simplify punctuation (e.g. "--" -> "-"); replace non UTF 8 characters; 
+      curatare: *
+      note: much more data for lean left. will balance by having more right-leaning data in the extended newb dataset. 
  
       
 * rele:
 - duplicate (sau o propozitie contine o alta propozitie)
 - ce nu face parte din articol (e.g.: "Source:Federal News Service Editor's Note: NPR transcripts are created on a rush deadline by a contractor for NPR, and accuracy and availability may vary.", "via Getty Images| hide caption", "hide caption")
+- simplify punctuation (e.g. "--" -> "-"); replace non UTF 8 characters;
      
 (urmeaza: curatat dataseturile)
 
