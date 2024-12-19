@@ -1,0 +1,38 @@
+1. on my dataset
+------------------------------------------
+simple bert:
+2 epochs, batch size=8, lr=5e-5:
+ 'eval_loss': 0.5740520358085632, 'eval_accuracy': 0.7427435432714091, 'eval_precision': 0.7325683570402471, 'eval_recall': 0.7316400006141711, 'eval_macro_f1': 0.7316140428078487, 'eval_runtime': 131.3203, 'eval_samples_per_second': 134.45, 'eval_steps_per_second': 8.407, 'epoch': 2.0}
+
+bert+lstm:
+3 epochs, batch size=16, lr=5e-5:
+TODO
+4 epochs, batch size=32, lr=5e-5:
+Loss: 0.7410 | {'accuracy': 0.7265518803806071, 'precision': 0.7351532291142897, 'recall': 0.6724896560692885, 'macro_f1': 0.6839790195982514}
+
+bert+cnn+bilstm:
+4 epochs, batch size=16, lr=5e-5:
+TODO
+4 epochs, batch size=16, lr=3e-5:
+Accuracy: 0.8023, Precision: 0.8024, Recall: 0.8023, F1: 0.7889
+
+dbias model:
+accuracy: 0.71
+
+baly et al.:
+MODEL IS NOT AVAILABLE ("under maintenance" - https://github.com/ramybaly/Article-Bias-Prediction)
+
+
+
+2. semeval-2019 task 4
+-----------------------------
+bert+cnn+bilstm:
+Accuracy: 0.6722, Precision: 0.6534, Recall: 0.7916, F1: 0.6752
+
+others (PAN contest):
+		   Accuracy	Precision	Recall	F1
+bertha-von-suttner 0.822	0.871	0.755	0.809	
+vernon-fenwick	   0.820	0.815	0.828	0.821
+sally-smedley 0.809	0.823	0.787	0.805
+
+
